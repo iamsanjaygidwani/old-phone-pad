@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  oldphoneapi:
+    build: ./src/OldPhonePad.Api
+    ports:
+      - "5000:80"

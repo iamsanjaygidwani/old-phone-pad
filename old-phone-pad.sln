@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79774A70-EBD8-4642-9C58-907AB59EE730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldPhonePad.Lib", "src\OldPhonePad.Lib\OldPhonePad.Lib.csproj", "{E4F368D3-861B-47A9-BE97-64F86E760D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldPhonePad.Console", "src\OldPhonePad.Console\OldPhonePad.Console.csproj", "{67170E27-4AC9-4266-942B-96369DF4DD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldPhonePad.Api", "src\OldPhonePad.Api\OldPhonePad.Api.csproj", "{535A5323-914D-4A3C-9620-61A4B2DC1ED1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AA631ED3-CCD0-46D8-A80A-089AB680E75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldPhonePad.Tests", "tests\OldPhonePad.Tests\OldPhonePad.Tests.csproj", "{F26A2F61-2DAB-4910-BB30-AE567D583665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F368D3-861B-47A9-BE97-64F86E760D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F368D3-861B-47A9-BE97-64F86E760D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F368D3-861B-47A9-BE97-64F86E760D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F368D3-861B-47A9-BE97-64F86E760D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67170E27-4AC9-4266-942B-96369DF4DD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67170E27-4AC9-4266-942B-96369DF4DD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67170E27-4AC9-4266-942B-96369DF4DD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67170E27-4AC9-4266-942B-96369DF4DD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535A5323-914D-4A3C-9620-61A4B2DC1ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535A5323-914D-4A3C-9620-61A4B2DC1ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535A5323-914D-4A3C-9620-61A4B2DC1ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535A5323-914D-4A3C-9620-61A4B2DC1ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26A2F61-2DAB-4910-BB30-AE567D583665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26A2F61-2DAB-4910-BB30-AE567D583665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26A2F61-2DAB-4910-BB30-AE567D583665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26A2F61-2DAB-4910-BB30-AE567D583665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4F368D3-861B-47A9-BE97-64F86E760D00} = {79774A70-EBD8-4642-9C58-907AB59EE730}
+		{67170E27-4AC9-4266-942B-96369DF4DD50} = {79774A70-EBD8-4642-9C58-907AB59EE730}
+		{535A5323-914D-4A3C-9620-61A4B2DC1ED1} = {79774A70-EBD8-4642-9C58-907AB59EE730}
+		{F26A2F61-2DAB-4910-BB30-AE567D583665} = {AA631ED3-CCD0-46D8-A80A-089AB680E75A}
+	EndGlobalSection
+EndGlobal
