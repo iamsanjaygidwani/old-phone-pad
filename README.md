@@ -131,10 +131,10 @@ curl -X POST http://localhost:5000/decode \
 
 #### 3) Run with Docker
 ```
-docker build -t oldphoneapi ./src/OldPhonePad.Api
-docker run --rm -p 5000:80 oldphoneapi
+docker build -f src/OldPhonePad.Api/Dockerfile -t oldphoneapi:latest .
+docker run --rm -p 6000:8080 oldphoneapi:latest
 ```
-Then call the API using the above curl and verify the expected response.
+Then call the API using the above curl and verify the expected response. Alternatively, docker compose can also be used directly.
 
 ---
 
